@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9fafb;
+}
+
+.container {
+    width: 350px;
+    background-color: #111317;
+    font-family: Inter;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+#display {
+    width: 300px;
+    margin: 25px;
+    padding: 15px;
+    height: 75px;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #292e34;
+    color: #f9fafb;
+    pointer-events: none;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    border-radius: 12px;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #292e34;
+    color: #f9fafb;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #383e47;
+}
+
+button:active {
+    background-color: #4a515c;
+}
+
+#zero{
+    grid-column: span 2;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.withcolors {
+    color: #9965f4;
+}
+
+#colorsultra {
+    background-color: #9965f4;
+    transition: 0.2s;
+}
+
+#colorsultra:hover {
+    background-color: hsl(261, 87%, 78%);
+}
+
+#colorsultra:active {
+    background-color: hsl(261, 87%, 88%);
+}
